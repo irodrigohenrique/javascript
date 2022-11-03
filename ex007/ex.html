@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <main>
+    <div>
+    <div>
+        Ano de Nacimento:
+        <input type="number" name="txtano" id="txtano" min="0">
+    </div>
+            <div>
+                <label for="isexo">Sexo:</label>
+                <input type="radio" name="isexo" id="M">
+                <label for="M">Masculino</label>
+                <input type="radio" name="isexo" id="F">
+                <label for="F">Feminino</label>
+            </div>
+        
+        <div>
+            <input type="button" value="Verificar" onclick="verificar()">
+        </div>
+       
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver o resultado!
+        </div>
+        
+    </form>
+    </main>
+
+    <footer>
+        <p>&copy; Rodrigo Henrique</p>
+    </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
